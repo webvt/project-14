@@ -1,0 +1,23 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/360_F_1279033577_lra8rUArgHV3cXG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 200px;
+    position: absolute;
+    bottom: 40%;
+    animation: run 1.5s linear infinite;
+}
+@keyframes run {
+    from{
+        translate: 0%;
+    }
+    to{
+        translate:calc(100vw - 200px);
+        bottom:38%;                                                               
+    }
+    
+}
